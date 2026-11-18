@@ -1,5 +1,78 @@
 {
   "schemaVersion": 1,
-  "appleAppID": null,
-  "packs": []
+  "appleAppID": "6836332427",
+  "packs": [
+    {
+      "track": 1,
+      "assetPackID": "bewie-video-01",
+      "appleVersion": "1",
+      "videoSHA256": "c6c0355e9fb7f652b7b808f7902b29a359d8fecae2501cbc405b0635dfef285a",
+      "metadataSHA256": "57896ba4ae41fb7e005afdb63839b659ba52dea9d523b0d3c7369908539ed0ea",
+      "manifestSHA256": "6e3afa9b05640bc20053ceb5e9a04fec7aae96746d64bf1d327611e2c3a95052"
+    },
+    {
+      "track": 2,
+      "assetPackID": "bewie-video-02",
+      "appleVersion": "1",
+      "videoSHA256": "625cc2c87fb8c8a8a858ae19c4be7ca277a42ddf1a5c3b334902b80dc4a0996c",
+      "metadataSHA256": "4b228ecb48eee9c7a5134f81d3f99fa431f300b1b054562da7d77829fbca9a3c",
+      "manifestSHA256": "cbfdc37e8fb84476410278196e965ed64ed22115ebf2c4bb3da338b9e358b07b"
+    },
+    {
+      "track": 3,
+      "assetPackID": "bewie-video-03",
+      "appleVersion": "1",
+      "videoSHA256": "c256e7277abda736b633c99b1d98db0cf691e865bc1a7b1d0a669a78b030683b",
+      "metadataSHA256": "6284c8b10e38eb040bc3c00e8f15f9eaba38c2a6928da8436f9df6ea4c24b0a1",
+      "manifestSHA256": "5fe8a370b8893d2c1a5dbfe4c33d06745e0b873819e8aa72ceef520bf691fcd3"
+    },
+    {
+      "track": 4,
+      "assetPackID": "bewie-video-04",
+      "appleVersion": "1",
+      "videoSHA256": "91c6d788442075c53d08d66894a5b4a58bfc60783b454ee20822ff489db82def",
+      "metadataSHA256": "f540050d9038f60f835c9ba4de5462668777917a83f73b30263d6873632a4237",
+      "manifestSHA256": "d44aaae02fcb8a3be7a79f4d66a0b47a188b73dabe7925a9649d2d14f423f510"
+    },
+    {
+      "track": 5,
+      "assetPackID": "bewie-video-05",
+      "appleVersion": "1",
+      "videoSHA256": "4a76c608138c65fddbdbfc39571891e7a58412cfae96ece7194f5ff7340cad5b",
+      "metadataSHA256": "e10d406890dacb3851667b752b1a1c5c078b1973dca9639508d56cc708ef3f30",
+      "manifestSHA256": "2ebf787d04508037ec79076ab5e26860bbf2e7d1bf441b238537fd74667151a3"
+    },
+    {
+      "track": 6,
+      "assetPackID": "bewie-video-06",
+      "appleVersion": "1",
+      "videoSHA256": "8046144d31f39222ae2fa3db100374885dedd685b2bd8e1ebc53dd0fc9bedcbb",
+      "metadataSHA256": "faf38c0276602d46ceb82e6619709eacd5c050eeecea8f58bf38622694570c5a",
+      "manifestSHA256": "3139b29b93b24fcfd4156c5a6131c15a4b024aae9eaa41dd41ee1195e14cc110"
+    },
+    {
+      "track": 7,
+      "assetPackID": "bewie-video-07",
+      "appleVersion": "1",
+      "videoSHA256": "21f8ba5fd9badc41510944e2df2561b321b74d4f2cc839c7b177969c0a921f82",
+      "metadataSHA256": "c98a58968b766fbd9eafb495181da120afdbe5b3b799878a10537b006b6dd5bd",
+      "manifestSHA256": "765f3733d68630f76eae9c62a32e7a374bb4a79557c6652ab61f75bd61034058"
+    },
+    {
+      "track": 8,
+      "assetPackID": "bewie-video-08",
+      "appleVersion": "1",
+      "videoSHA256": "64a5306309dccc726ba4de31d8e38c89f0011c5859642d49485c589538972022",
+      "metadataSHA256": "daf76347776402f24ae065c43659dcfb59f3d0a22c9e68146d30a7ed2ec882f5",
+      "manifestSHA256": "fc9270c9e11eb4e41899386bac9502cd53b4b7c3ec075a3b1c974ff47e324839"
+    },
+    {
+      "track": 9,
+      "assetPackID": "bewie-video-09",
+      "appleVersion": "1",
+      "videoSHA256": "7872987dcb7182ec286be89b4ec43aa185d81b7dd95ab45d2eb014d820242042",
+      "metadataSHA256": "6d2717eaa07f5930c45e35d88b82684fb45c2c8c1ecd4a733a0956e85294b64b",
+      "manifestSHA256": "94071ed70fb30192bd07e8dc44d024dfc3f4a6b62605fc09e302e0811b4b8493"
+    }
+  ]
 }

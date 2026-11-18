@@ -1,0 +1,3 @@
+Bewie 1.0 (1) — first standalone Mac album release.
+
+Verify Apple-hosted lossless downloads, all nine song locations, synchronized lyrics, map movement, playback controls, system media controls, AirPlay, window resizing and offline playback after relaunch. Check the original-color Bewie icon and the brighter texture-preserving tinted appearance.

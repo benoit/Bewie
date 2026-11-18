@@ -1,5 +1,69 @@
 {
   "schemaVersion": 3,
-  "appleAppID": null,
-  "packs": []
+  "appleAppID": "6836332427",
+  "packs": [
+    {
+      "track": 1,
+      "assetPackID": "bewie-track-01",
+      "appleVersion": "1",
+      "encodedSHA256": "7b2600b912b44eeaf7a9406c36d076d77506b99c7c7d56f8b0ba01de29467c9d",
+      "manifestSHA256": "55fa583ef3663013cc75c8d22f0b6a9ed4e6cc2eaafa714ddca075b3836c8ead"
+    },
+    {
+      "track": 2,
+      "assetPackID": "bewie-track-02",
+      "appleVersion": "1",
+      "encodedSHA256": "7c65823f42659c34c7a87831363fbb09529ef104db653ef26c5a4fe2ba3e9fed",
+      "manifestSHA256": "19566df2fcca1174f00f7b7952ce175edc111de17dd96aa8166efd3dde1f56bc"
+    },
+    {
+      "track": 3,
+      "assetPackID": "bewie-track-03",
+      "appleVersion": "1",
+      "encodedSHA256": "3d92dd15279e1a70baa61791a2b84f5f8cae2a1825016c98f24b4bce04aa1829",
+      "manifestSHA256": "fddb144f311f3e735d6ee4e1cf9e3e9eac5db7b166cdf1c9567fd8d198fc11e6"
+    },
+    {
+      "track": 4,
+      "assetPackID": "bewie-track-04",
+      "appleVersion": "1",
+      "encodedSHA256": "321ede0405dcab82c2275f15003e3ba6f1a25cd925d612bbc4b6f3b23bd36e6a",
+      "manifestSHA256": "f787f9c078d2db8ff6dbdbe3ec8cec861895baea82fb57de4b9d12a70199b547"
+    },
+    {
+      "track": 5,
+      "assetPackID": "bewie-track-05",
+      "appleVersion": "1",
+      "encodedSHA256": "6e7089572c200451f655ee0847335891d5c4ad65feda2cb38a1a9d522ddaf3de",
+      "manifestSHA256": "7a6eabd1e45fec7e2e1ab0bc8955e05bb96356d29852ecc32838c6a2e64951f5"
+    },
+    {
+      "track": 6,
+      "assetPackID": "bewie-track-06",
+      "appleVersion": "1",
+      "encodedSHA256": "ba5eb9fcdf4b49dc421f72e8224d13dba556fe8132b0a9e80872a601f0a12909",
+      "manifestSHA256": "000ae4da1746a3a1c4e1db51bc78251ad604006beff244c5de3bad017a396fe0"
+    },
+    {
+      "track": 7,
+      "assetPackID": "bewie-track-07",
+      "appleVersion": "1",
+      "encodedSHA256": "d2f941921219279fd6449424d2683337a7ff28a38cd31c3f653bfbb96b8aac04",
+      "manifestSHA256": "8737e45493fa270f01b06eca04b4fccb7045255ed9ee2532a01c81cd70c3d7bd"
+    },
+    {
+      "track": 8,
+      "assetPackID": "bewie-track-08",
+      "appleVersion": "1",
+      "encodedSHA256": "fa5f0a89d1254ff67a2a156e2b30c90575a2dcdebc1e664c231d5d8070f3b825",
+      "manifestSHA256": "ea8c20bdb8e23de7adba5f91e8d4402a31bcc8a7053936835a060af60412b624"
+    },
+    {
+      "track": 9,
+      "assetPackID": "bewie-track-09",
+      "appleVersion": "1",
+      "encodedSHA256": "36d1b0e07ba325e3cc7422b2bf1ef265bedb09c34322545d2a39f6194181a074",
+      "manifestSHA256": "f84ca9767a019c9e6eaab147ea156eea8715ef171f73b215e5084c45c9dac416"
+    }
+  ]
 }

@@ -54,22 +54,22 @@ subsequent work; they are not implemented in this preparation.
 
 The iOS, Mac and Watch app icon preserves the original Bewie logo colors and
 texture on chalk in light and dark mode, with native clear/tinted variants. Messages has all
-12 matching flat icon sizes. Apple TV still uses the inherited pearl artwork.
+12 matching flat icon sizes. Apple TV uses the original Bewie logo on a layered chalk tile.
 The album launch artwork remains unchanged. See [Design/AppIcon.md](Design/AppIcon.md).
 
-## Before distribution
+## TestFlight distribution
 
-Register the new bundle IDs and music App Group with the existing signing team,
-and create Bewie's own App Store record. Enter that record's numeric ID in
-`Configuration/AppStore.json`; its value is deliberately empty here. Publication
-ledgers start empty, and upload helpers reject an unconfigured destination.
-Publish Bewie's newly named audio/video packs to its own record before device
-playback testing. Nothing has been registered, uploaded or released by this task.
+Bewie has its own App Store Connect record (`6836332427`), registered bundle IDs
+and assigned music App Group. Version **1.0 (1)** is available in the **Owner**
+internal TestFlight group for iOS/iPadOS (including Watch and Messages), Mac
+Catalyst and Apple TV. The group contains only Benoit; public links are disabled.
+All nine lossless music packs and nine Messages video packs are published under
+Bewie's record and ready for internal testing. English and French What to Test
+notes are saved for every platform. See [the release record](Documentation/Release-1.0-1.md).
 
-Once the store record exists, set `BewieAppStoreURL` in
+When a public store listing is available, set `BewieAppStoreURL` in
 `Configuration/Messages-Info.plist` to its HTTPS App Store URL to enable the
-Messages app-link row. It stays hidden while no destination exists. Song/video
-sharing remains separate. Do not reuse Perle's store URL or publication versions.
+Messages app-link row. Song/video sharing works independently.
 
 See [Documentation/Preparation.md](Documentation/Preparation.md) for verification.
 
@@ -86,3 +86,9 @@ Support: https://bewie.atelierindustriel.be/support
 Privacy: https://bewie.atelierindustriel.be/privacy
 
 The website provides ten language variants independently of the app localizations.
+
+The first device archives are version 1.0 (1). Use
+`tools/verify-release-archive.py` before signing/uploading to verify the exact
+platform bundle set, build versions, exempt encryption and Watch size. The iOS
+archive must embed Messages, Watch and the background downloader. Distribution
+uses Bewie’s own App Store record and assigned music App Group.

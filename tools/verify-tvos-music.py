@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """Verify published essential music on TV and optionally queue pack beta review."""
 from pathlib import Path
-import argparse,datetime,hashlib,importlib.util,json,subprocess,tempfile,time
+import argparse,datetime,hashlib,json,subprocess,tempfile,time
 ROOT=Path(__file__).resolve().parent.parent
-spec=importlib.util.spec_from_file_location('release_client',ROOT/'tools/finish-tvos-release.py')
-release=importlib.util.module_from_spec(spec);spec.loader.exec_module(release)
+from appstore_connect import Client, APIError
+APP=json.loads((ROOT/'Configuration/AppStore.json').read_text())['appleAppID']
 def main():
  parser=argparse.ArgumentParser();parser.add_argument('--submit-beta-review',action='store_true');parser.add_argument('--wait',action='store_true');args=parser.parse_args()
  masters={x['track']:x for x in json.loads((ROOT/'MusicAssets/masters-manifest.json').read_text())['tracks']}
- client=release.Client()
+ client=Client()
  while True:
   if check(client,args):return
   if not args.wait:return
@@ -17,7 +17,7 @@ def main():
 def check(client,args):
  masters={x['track']:x for x in json.loads((ROOT/'MusicAssets/masters-manifest.json').read_text())['tracks']}
  published=json.loads((ROOT/'MusicAssets/PublishedPacks.json').read_text())
- assets=client.request('GET',f'/v1/apps/{release.APP}/backgroundAssets?include=internalBetaVersion,externalBetaVersion&limit=100')['data']
+ assets=client.request('GET',f'/v1/apps/{APP}/backgroundAssets?include=internalBetaVersion,externalBetaVersion&limit=100')['data']
  rows=[]
  for number in range(1,10):
   identifier=f'bewie-track-{number:02}'
@@ -46,7 +46,7 @@ def check(client,args):
   external=getstate('externalBetaRelease');deferred=None
   if args.submit_beta_review and external=='READY_FOR_BETA_SUBMISSION':
    try:client.request('POST','/v1/betaBackgroundAssetReviewSubmissions',{'data':{'type':'betaBackgroundAssetReviewSubmissions','relationships':{'backgroundAssetVersion':{'data':{'type':'backgroundAssetVersions','id':version['id']}}}}})
-   except release.APIError as error:
+   except APIError as error:
     codes=[x.get('code','') for x in error.errors]
     if error.status==409 and 'STATE_ERROR.NO_COMPATIBLE_BUILD' in codes:deferred='waiting_for_compatible_external_build'
     elif error.status==409 and any('EXISTS' in code or 'ALREADY' in code for code in codes):pass
@@ -55,7 +55,7 @@ def check(client,args):
    external=getstate('externalBetaRelease')
   rows.append({'pack':identifier,'version':record['appleVersion'],'platforms':version['attributes']['platforms'],'processing':'COMPLETE','internal':'READY_FOR_TESTING','internalSelected':True,'policy':'essential','installationEvents':manifest['downloadPolicy']['essential']['installationEventTypes'],'external':external,'externalSelected':asset['relationships']['externalBetaVersion'].get('data',{}).get('id')==version['id'] if asset['relationships']['externalBetaVersion'].get('data') else False,'externalReviewDeferred':deferred,'archiveManifestVerified':True,'losslessAudioUnchanged':True})
   print(json.dumps(rows[-1]),flush=True)
- result={'appID':release.APP,'verifiedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'allNineReadyOnTV':len(rows)==9,'allNineExternalReadyOnTV':len(rows)==9 and all(x['external']=='READY_FOR_TESTING' and x['externalSelected'] for x in rows),'packs':rows}
+ result={'appID':APP,'verifiedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'allNineReadyOnTV':len(rows)==9,'allNineExternalReadyOnTV':len(rows)==9 and all(x['external']=='READY_FOR_TESTING' and x['externalSelected'] for x in rows),'packs':rows}
  path=ROOT/'build/tvos-music-delivery-verification.json';temp=path.with_suffix('.json.tmp');temp.write_text(json.dumps(result,indent=2)+'\n');temp.replace(path)
  return result['allNineExternalReadyOnTV']
 if __name__=='__main__':main()

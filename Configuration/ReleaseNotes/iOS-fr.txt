@@ -1,0 +1,7 @@
+Bewie 1.0 (1) — première version indépendante de l’album.
+
+Vérifier la pochette d’ouverture, les neuf lieux des morceaux, les déplacements sur la carte, les paroles synchronisées, les commandes de lecture, l’audio en arrière-plan, AirPlay et les commandes système. Tester le premier téléchargement de la musique sans perte depuis Apple, puis la lecture hors ligne après relance.
+
+Sur Apple Watch, tester l’album embarqué hors ligne, le choix des morceaux, la couronne et le volume. Dans Messages, ajouter la vidéo complète d’un morceau avec une note facultative à un brouillon et le vérifier avant l’envoi.
+
+Vérifier le logo dans ses couleurs d’origine sur fond chalk et ses apparences transparentes/teintées, dont la version teintée sombre plus lisible qui conserve la texture.

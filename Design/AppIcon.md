@@ -40,8 +40,8 @@ swift tools/generate-messages-icons.swift
 ```
 
 The inherited pearl icon is archived at `Design/Icons/InheritedPearl.icon`, outside
-the build target. The separate private pearl/map asset is preserved. tvOS artwork
-and the album launch cover are unchanged by this iOS icon task.
+the build target. The separate private pearl/map asset is preserved. tvOS uses matching original-color Bewie foreground/chalk background layers, generated
+with `swift tools/generate-tv-icons.swift`. Top Shelf and the album launch cover retain the album artwork.
 
 Validation: all twelve native previews rendered; all six iOS 27 previews visually
 reviewed; matching Messages marketing icon visually reviewed. iOS Simulator and
