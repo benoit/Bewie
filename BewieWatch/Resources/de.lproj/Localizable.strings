@@ -1,0 +1,17 @@
+"Previous track" = "Vorheriger Titel";
+"Next track" = "Nächster Titel";
+"Play" = "Wiedergabe";
+"Pause" = "Pause";
+"Cancel" = "Abbrechen";
+"Playback unavailable" = "Wiedergabe nicht verfügbar";
+"OK" = "OK";
+"Connect an audio output and try again." = "Verbinde einen Audioausgang und versuche es erneut.";
+"The song could not be played. Please try again." = "Der Titel konnte nicht abgespielt werden. Versuche es erneut.";
+"Track location: %@" = "Ort des Titels: %@";
+"Starting playback" = "Wiedergabe wird gestartet";
+"Audio output" = "Audioausgabe";
+"Done" = "Fertig";
+
+"Album cover" = "Albumcover";
+
+"Tap to reveal the player" = "Tippen, um den Player anzuzeigen";

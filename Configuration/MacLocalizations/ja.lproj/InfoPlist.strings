@@ -1,0 +1,2 @@
+"NSLocationWhenInUseUsageDescription" = "Bewieは起動時に地図の中心を設定するために位置情報を使用します。許可されない場合、地図はパリのノートルダム大聖堂を中心に開きます。";
+"NSLocationUsageDescription" = "Bewieは起動時に地図の中心を設定するために位置情報を使用します。許可されない場合、地図はパリのノートルダム大聖堂を中心に開きます。";

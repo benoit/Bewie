@@ -1,0 +1,95 @@
+{
+  "source": "/Users/bolos/Apps/Perle",
+  "files": [
+    {
+      "path": "MusicAssets/Audio/track-01.m4a",
+      "bytes": 58417668,
+      "sha256": "7b2600b912b44eeaf7a9406c36d076d77506b99c7c7d56f8b0ba01de29467c9d"
+    },
+    {
+      "path": "MusicAssets/Audio/track-02.m4a",
+      "bytes": 55855574,
+      "sha256": "7c65823f42659c34c7a87831363fbb09529ef104db653ef26c5a4fe2ba3e9fed"
+    },
+    {
+      "path": "MusicAssets/Audio/track-03.m4a",
+      "bytes": 53091001,
+      "sha256": "3d92dd15279e1a70baa61791a2b84f5f8cae2a1825016c98f24b4bce04aa1829"
+    },
+    {
+      "path": "MusicAssets/Audio/track-04.m4a",
+      "bytes": 57112343,
+      "sha256": "321ede0405dcab82c2275f15003e3ba6f1a25cd925d612bbc4b6f3b23bd36e6a"
+    },
+    {
+      "path": "MusicAssets/Audio/track-05.m4a",
+      "bytes": 48904177,
+      "sha256": "6e7089572c200451f655ee0847335891d5c4ad65feda2cb38a1a9d522ddaf3de"
+    },
+    {
+      "path": "MusicAssets/Audio/track-06.m4a",
+      "bytes": 78682651,
+      "sha256": "ba5eb9fcdf4b49dc421f72e8224d13dba556fe8132b0a9e80872a601f0a12909"
+    },
+    {
+      "path": "MusicAssets/Audio/track-07.m4a",
+      "bytes": 53360515,
+      "sha256": "d2f941921219279fd6449424d2683337a7ff28a38cd31c3f653bfbb96b8aac04"
+    },
+    {
+      "path": "MusicAssets/Audio/track-08.m4a",
+      "bytes": 59992481,
+      "sha256": "fa5f0a89d1254ff67a2a156e2b30c90575a2dcdebc1e664c231d5d8070f3b825"
+    },
+    {
+      "path": "MusicAssets/Audio/track-09.m4a",
+      "bytes": 65686559,
+      "sha256": "36d1b0e07ba325e3cc7422b2bf1ef265bedb09c34322545d2a39f6194181a074"
+    },
+    {
+      "path": "BewieWatch/Resources/Audio/track-01.m4a",
+      "bytes": 6638643,
+      "sha256": "0b8c5dcbde5b71809d4d7c1adec05d1c6b0ae05e418990410b8d4a6e326183d4"
+    },
+    {
+      "path": "BewieWatch/Resources/Audio/track-02.m4a",
+      "bytes": 6630381,
+      "sha256": "1b98ed448b04a8e74abfd0b88e98b4ad13a5ce6a6d7aa2c9ec5ec9513c8d11ce"
+    },
+    {
+      "path": "BewieWatch/Resources/Audio/track-03.m4a",
+      "bytes": 6041771,
+      "sha256": "6f2b3cbc132a637d723a21d43a89b0c107244433a45854cbfbd286272e2a4c40"
+    },
+    {
+      "path": "BewieWatch/Resources/Audio/track-04.m4a",
+      "bytes": 6537987,
+      "sha256": "76db6b33a2b3f270fc73c388ba5238995ce6374b382299cbb4fb0903fe88ae70"
+    },
+    {
+      "path": "BewieWatch/Resources/Audio/track-05.m4a",
+      "bytes": 5788230,
+      "sha256": "3e0d55cd9f1d2ffb5e9e17baa6b698d3982a8b33e06377dca9c4b3ca3ba3c605"
+    },
+    {
+      "path": "BewieWatch/Resources/Audio/track-06.m4a",
+      "bytes": 9195282,
+      "sha256": "2f9613f2c0ae533770695737944396e99e62a3ace527c3d6ff650bc651130086"
+    },
+    {
+      "path": "BewieWatch/Resources/Audio/track-07.m4a",
+      "bytes": 6325213,
+      "sha256": "4896e1be7897def1338907872272ebbc5eac01b99cfe569711749097f48548c0"
+    },
+    {
+      "path": "BewieWatch/Resources/Audio/track-08.m4a",
+      "bytes": 6594161,
+      "sha256": "ff5023f39b19f7988684f46b1f38a05c995d05eb0bae409e5fef0b42e7c97322"
+    },
+    {
+      "path": "BewieWatch/Resources/Audio/track-09.m4a",
+      "bytes": 7788980,
+      "sha256": "48ea560ddcfa31b78b3b6e2efff231fb3e0fdd43b560f3762231cc9e26af2ae7"
+    }
+  ]
+}

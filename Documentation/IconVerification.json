@@ -1,0 +1,23 @@
+{
+  "sourceSHA256": "1ede39f20df4408d9a41910642daf560ae57b1e4dd5b9a35627f5af849d0885b",
+  "originalLogoBytesPreserved": true,
+  "defaultBackground": "#F2F1EC",
+  "compiledAppearances": [
+    "ISAppearanceTintable",
+    "UIAppearanceDark",
+    "default"
+  ],
+  "compiledIdioms": [
+    "pad",
+    "phone"
+  ],
+  "messagesSlots": 12,
+  "nativePreviewCount": 12,
+  "iOSBuild": "passed",
+  "catalystBuild": "passed",
+  "foreground": "Original RGB in Default/Dark; lifted texture-preserving Mono source for clear/tinted",
+  "lightAndDarkBackground": "#F2F1EC",
+  "originalLightAndDarkRendersUnchanged": true,
+  "monoSource": "Bewie-Mono.png",
+  "monoLuminanceMapping": "0.55 + 0.45 * sqrt(luminance)"
+}

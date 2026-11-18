@@ -1,0 +1,17 @@
+"Previous track" = "Canción anterior";
+"Next track" = "Canción siguiente";
+"Play" = "Reproducir";
+"Pause" = "Pausa";
+"Cancel" = "Cancelar";
+"Playback unavailable" = "Reproducción no disponible";
+"OK" = "Aceptar";
+"Connect an audio output and try again." = "Conecta una salida de audio y vuelve a intentarlo.";
+"The song could not be played. Please try again." = "No se pudo reproducir la canción. Vuelve a intentarlo.";
+"Track location: %@" = "Lugar de la canción: %@";
+"Starting playback" = "Iniciando reproducción";
+"Audio output" = "Salida de audio";
+"Done" = "Listo";
+
+"Album cover" = "Portada del álbum";
+
+"Tap to reveal the player" = "Toca para mostrar el reproductor";

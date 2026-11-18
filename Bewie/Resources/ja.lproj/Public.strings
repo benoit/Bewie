@@ -1,0 +1,27 @@
+// Public interface only. Private guides remain French.
+"coordinates" = "GPS座標：%@";
+"playbackPosition" = "再生位置";
+"previousTrack" = "前の曲";
+"nextTrack" = "次の曲";
+"pause" = "一時停止";
+"resume" = "再開";
+"vinyl" = "アナログレコード · elasticStage";
+"closePlayer" = "プレーヤーを閉じる";
+"musicUnavailable" = "音楽を利用できません";
+"retry" = "再試行";
+"close" = "閉じる";
+"trackLabel" = "%1$d, %2$@";
+"playing" = "再生中";
+"paused" = "一時停止中";
+"stopped" = "停止中";
+"openControls" = "再生コントロールを開く";
+"playAndLocate" = "曲を再生して、この場所を地図上で拡大する";
+"downloadingTrack" = "曲をダウンロード中";
+"airPlayOutput" = "AirPlayとオーディオ出力";
+"audioUnavailable" = "%@の音声ファイルを利用できません。";
+"trackStartFailed" = "曲を再生できませんでした。曲のピンをタップして、もう一度お試しください。";
+"downloadFailed" = "%@をダウンロードできませんでした。接続を確認して、もう一度お試しください。";
+"playbackUnavailable" = "現在、再生を利用できません。ピンをタップして、もう一度お試しください。";
+"playbackInterrupted" = "再生が中断されました。ピンをタップすると、再び再生できます。";
+"playbackStopped" = "再生が停止しました。ピンをタップして、もう一度お試しください。";
+"trackReadFailed" = "曲を読み込めませんでした。ピンをタップして、もう一度お試しください。";

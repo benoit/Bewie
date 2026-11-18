@@ -1,0 +1,27 @@
+// Public interface only. Private guides remain French.
+"coordinates" = "Coordenadas GPS: %@";
+"playbackPosition" = "Posição de reprodução";
+"previousTrack" = "Faixa anterior";
+"nextTrack" = "Próxima faixa";
+"pause" = "Pausar";
+"resume" = "Retomar";
+"vinyl" = "Vinil · elasticStage";
+"closePlayer" = "Fechar o player";
+"musicUnavailable" = "Música indisponível";
+"retry" = "Tentar novamente";
+"close" = "Fechar";
+"trackLabel" = "%1$d, %2$@";
+"playing" = "Reproduzindo";
+"paused" = "Em pausa";
+"stopped" = "Parado";
+"openControls" = "Abrir os controles de reprodução";
+"playAndLocate" = "Reproduzir a faixa e ampliar este local no mapa";
+"downloadingTrack" = "Baixando a faixa";
+"airPlayOutput" = "AirPlay e saída de áudio";
+"audioUnavailable" = "O áudio de %@ não está disponível.";
+"trackStartFailed" = "Não foi possível iniciar a faixa. Toque no marcador dela para tentar novamente.";
+"downloadFailed" = "Não foi possível baixar %@. Verifique a conexão e tente novamente.";
+"playbackUnavailable" = "A reprodução está temporariamente indisponível. Toque no marcador para tentar novamente.";
+"playbackInterrupted" = "A reprodução foi interrompida. Toque em um marcador para começar novamente.";
+"playbackStopped" = "A reprodução parou. Toque no marcador para tentar novamente.";
+"trackReadFailed" = "Não foi possível ler a faixa. Toque em um marcador para tentar novamente.";

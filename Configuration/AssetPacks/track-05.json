@@ -1,0 +1,23 @@
+{
+  "assetPackID": "bewie-track-05",
+  "downloadPolicy": {
+    "essential": {
+      "installationEventTypes": [
+        "firstInstallation",
+        "subsequentUpdate"
+      ]
+    }
+  },
+  "fileSelectors": [
+    {
+      "fileSource": "MusicAssets/Audio/track-05.m4a",
+      "fileDestination": "Audio/track-05.m4a"
+    }
+  ],
+  "platforms": [
+    "iOS",
+    "tvOS",
+    "macOS"
+  ],
+  "sourceRoot": "../.."
+}

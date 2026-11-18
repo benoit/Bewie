@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	"archiveVersion" = 1;
+	"classes" = {
+	};
+	"objectVersion" = 60;
+	"objects" = {
+		"B436CC8CE7BE754883269EE3" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Bewie/AlbumTrack.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"965B7C92C48009127E275EA7" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Bewie/AlbumPlayer.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"F92C6C91FD755D0AF5857F7E" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Bewie/MusicLibrary.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"DE54AAB6CA4D76C1BCDC44F1" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Bewie/SystemPlayback.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"694A38A14C9CD5725FB95496" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Bewie/PublicText.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"54CC91011F12CE6D07404FCE" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Bewie/PinPlacement.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"403A7E0950DFF3766DEB4DA1" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Bewie/SystemMapGeometry.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"CFFA7B531CB5C92EE23E82CB" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Bewie/MapStartLocation.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"74F9BAF03DE2ADC6C5637553" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Bewie/TrackFlightKeyframes.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"D5EC40117EE2CBEB8893CA3D" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Bewie/AlbumSleeveReveal.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"3F3FE22438244E7CD6271795" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Bewie/MapLyricsView.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"4C43D8868664412F066DDB04" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Bewie/SynchronizedLyrics.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"A04433DE85BE25B3A5CF60C0" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Bewie/MusicLoadingBar.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"09AF1CA69CE435679F7C0D11" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "BewieTV/BewieTVApp.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"C0A5D884990BB18671B050C6" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "BewieTV/TVAlbumView.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"B9358154CA1EB903B40E5D22" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "BewieTV/TVCompactPlayer.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"59A348ACB3D3E4B610698FA0" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "BewieTV/TVMapPin.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"CFDC137BF2496F69F69FA3A0" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "BewieTV/TVPinButton.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"55DACDF87815EF39938CC5F4" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "BewieTV/TVPreviewAudio.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"986C09C9025C362B0794861A" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "file.storyboard";
+			"path" = "BewieTV/TVLaunchScreen.storyboard";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"8EC2A121292DFBFBA801BEF5" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "folder.assetcatalog";
+			"path" = "BewieTV/Assets.xcassets";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"FBC8813EE7C55167D576062B" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "file";
+			"path" = "Bewie/Resources/Fonts/PTMono-Regular.ttf";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"8EEE704EA3744EB8AB1D6B12" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text";
+			"path" = "Bewie/Resources/Lyrics/track-01.lrc";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"36007AE6ECF8C874816ABD87" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text";
+			"path" = "Bewie/Resources/Lyrics/track-02.lrc";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"28DF138C651B645BF7B01E62" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text";
+			"path" = "Bewie/Resources/Lyrics/track-03.lrc";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"71EEAAC1916636A6908AD558" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text";
+			"path" = "Bewie/Resources/Lyrics/track-04.lrc";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"74AB88C5D3B270931127B0F1" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text";
+			"path" = "Bewie/Resources/Lyrics/track-05.lrc";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"C446A94A8DB7C37EDF56C0DB" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text";
+			"path" = "Bewie/Resources/Lyrics/track-06.lrc";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"7FB9800777BB74D6272A420E" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text";
+			"path" = "Bewie/Resources/Lyrics/track-07.lrc";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"70219EC1D88D3C6918BAE345" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text";
+			"path" = "Bewie/Resources/Lyrics/track-08.lrc";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"C2C3B89563669A71D24C50B5" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text";
+			"path" = "Bewie/Resources/Lyrics/track-09.lrc";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"F8F55C417598908B450DEA49" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.strings";
+			"name" = "de";
+			"path" = "Bewie/Resources/de.lproj/Public.strings";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"5ED052469CE8718BD7702420" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.strings";
+			"name" = "en-GB";
+			"path" = "Bewie/Resources/en-GB.lproj/Public.strings";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"56D671E8016E57DE9128AA12" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.strings";
+			"name" = "en";
+			"path" = "Bewie/Resources/en.lproj/Public.strings";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"C98CCA95B1B47DC53A099862" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.strings";
+			"name" = "es-MX";
+			"path" = "Bewie/Resources/es-MX.lproj/Public.strings";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"42611DCF2122E8068F312CCD" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.strings";
+			"name" = "es";
+			"path" = "Bewie/Resources/es.lproj/Public.strings";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"785EA75F6E71A8B9810E63CA" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.strings";
+			"name" = "fr";
+			"path" = "Bewie/Resources/fr.lproj/Public.strings";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"4C88FABF4DD38E73D18B9679" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.strings";
+			"name" = "it";
+			"path" = "Bewie/Resources/it.lproj/Public.strings";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"D78B65671076E499CB976754" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.strings";
+			"name" = "ja";
+			"path" = "Bewie/Resources/ja.lproj/Public.strings";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"F9563BC1D40736CB13C88009" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.strings";
+			"name" = "pt-BR";
+			"path" = "Bewie/Resources/pt-BR.lproj/Public.strings";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"92C3047925D74D030CEA7822" = {
+			"isa" = "PBXVariantGroup";
+			"children" = ( "F8F55C417598908B450DEA49", "5ED052469CE8718BD7702420", "56D671E8016E57DE9128AA12", "C98CCA95B1B47DC53A099862", "42611DCF2122E8068F312CCD", "785EA75F6E71A8B9810E63CA", "4C88FABF4DD38E73D18B9679", "D78B65671076E499CB976754", "F9563BC1D40736CB13C88009" );
+			"name" = "Public.strings";
+			"sourceTree" = "<group>";
+		};
+		"C42644C67E6FF9359F19893D" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.application";
+			"path" = "Bewie.app";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+			"includeInIndex" = 0;
+		};
+		"24D49EADF143380280D29FBC" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.app-extension";
+			"path" = "MusicDownloaderTV.appex";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+			"includeInIndex" = 0;
+		};
+		"8A03418F4595A25FA6EB9982" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "MusicDownloader/MusicDownloader.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"3F85DAADBA3306AC262C24A6" = {
+			"isa" = "PBXGroup";
+			"children" = ( "C42644C67E6FF9359F19893D", "24D49EADF143380280D29FBC", "FE569255BAF148FE23C7DA78" );
+			"name" = "Products";
+			"sourceTree" = "<group>";
+		};
+		"EB9AB73C5D90F4BCA37834A0" = {
+			"isa" = "PBXGroup";
+			"children" = ( "B436CC8CE7BE754883269EE3", "965B7C92C48009127E275EA7", "F92C6C91FD755D0AF5857F7E", "DE54AAB6CA4D76C1BCDC44F1", "694A38A14C9CD5725FB95496", "54CC91011F12CE6D07404FCE", "403A7E0950DFF3766DEB4DA1", "CFFA7B531CB5C92EE23E82CB", "74F9BAF03DE2ADC6C5637553", "D5EC40117EE2CBEB8893CA3D", "3F3FE22438244E7CD6271795", "4C43D8868664412F066DDB04", "A04433DE85BE25B3A5CF60C0", "09AF1CA69CE435679F7C0D11", "C0A5D884990BB18671B050C6", "B9358154CA1EB903B40E5D22", "59A348ACB3D3E4B610698FA0", "CFDC137BF2496F69F69FA3A0", "55DACDF87815EF39938CC5F4", "986C09C9025C362B0794861A", "8EC2A121292DFBFBA801BEF5", "FBC8813EE7C55167D576062B", "8EEE704EA3744EB8AB1D6B12", "36007AE6ECF8C874816ABD87", "28DF138C651B645BF7B01E62", "71EEAAC1916636A6908AD558", "74AB88C5D3B270931127B0F1", "C446A94A8DB7C37EDF56C0DB", "7FB9800777BB74D6272A420E", "70219EC1D88D3C6918BAE345", "C2C3B89563669A71D24C50B5", "92C3047925D74D030CEA7822", "8A03418F4595A25FA6EB9982", "3F85DAADBA3306AC262C24A6", "C90F2522D07137C640918325" );
+			"sourceTree" = "<group>";
+		};
+		"76DE42158C3FA542EE384495" = {
+			"isa" = "XCBuildConfiguration";
+			"name" = "Debug";
+			"buildSettings" = {
+				"CLANG_ENABLE_MODULES" = "YES";
+				"SWIFT_VERSION" = "5.0";
+				"TVOS_DEPLOYMENT_TARGET" = "26.4";
+				"SDKROOT" = "appletvos";
+				"SUPPORTED_PLATFORMS" = "appletvos appletvsimulator";
+				"TARGETED_DEVICE_FAMILY" = "3";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "7G949WYL6E";
+				"CURRENT_PROJECT_VERSION" = "95";
+				"MARKETING_VERSION" = "1.0";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+				"PRODUCT_NAME" = "Bewie";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "bewie.atelierindustriel.be";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"INFOPLIST_FILE" = "Configuration/TV-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS" = "Configuration/TV.entitlements";
+				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+				"INFOPLIST_KEY_CFBundleDisplayName" = "Bewie";
+				"LD_RUNPATH_SEARCH_PATHS" = "$(inherited) @executable_path/Frameworks";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "DEBUG $(inherited)";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ONLY_ACTIVE_ARCH" = "YES";
+			};
+		};
+		"BEF05C598AF7C5F102B1DD43" = {
+			"isa" = "XCBuildConfiguration";
+			"name" = "Release";
+			"buildSettings" = {
+				"CLANG_ENABLE_MODULES" = "YES";
+				"SWIFT_VERSION" = "5.0";
+				"TVOS_DEPLOYMENT_TARGET" = "26.4";
+				"SDKROOT" = "appletvos";
+				"SUPPORTED_PLATFORMS" = "appletvos appletvsimulator";
+				"TARGETED_DEVICE_FAMILY" = "3";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "7G949WYL6E";
+				"CURRENT_PROJECT_VERSION" = "95";
+				"MARKETING_VERSION" = "1.0";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+				"PRODUCT_NAME" = "Bewie";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "bewie.atelierindustriel.be";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"INFOPLIST_FILE" = "Configuration/TV-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS" = "Configuration/TV.entitlements";
+				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+				"INFOPLIST_KEY_CFBundleDisplayName" = "Bewie";
+				"LD_RUNPATH_SEARCH_PATHS" = "$(inherited) @executable_path/Frameworks";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"SWIFT_COMPILATION_MODE" = "wholemodule";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+				"VALIDATE_PRODUCT" = "YES";
+			};
+		};
+		"8038AC2A37D6D370B5EAE67A" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = ( "76DE42158C3FA542EE384495", "BEF05C598AF7C5F102B1DD43" );
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"0444D9A5424BACC06A6B63A8" = {
+			"isa" = "XCBuildConfiguration";
+			"name" = "Debug";
+			"buildSettings" = {
+				"CLANG_ENABLE_MODULES" = "YES";
+				"SWIFT_VERSION" = "5.0";
+				"TVOS_DEPLOYMENT_TARGET" = "26.4";
+				"SDKROOT" = "appletvos";
+				"SUPPORTED_PLATFORMS" = "appletvos appletvsimulator";
+				"TARGETED_DEVICE_FAMILY" = "3";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "7G949WYL6E";
+				"CURRENT_PROJECT_VERSION" = "95";
+				"MARKETING_VERSION" = "1.0";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+				"PRODUCT_NAME" = "MusicDownloaderTV";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "bewie.atelierindustriel.be.musicdownloader";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"INFOPLIST_FILE" = "Configuration/TV-MusicDownloader-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS" = "Configuration/MusicDownloader.entitlements";
+				"SKIP_INSTALL" = "YES";
+				"APPLICATION_EXTENSION_API_ONLY" = "YES";
+				"LD_RUNPATH_SEARCH_PATHS" = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "DEBUG $(inherited)";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ONLY_ACTIVE_ARCH" = "YES";
+			};
+		};
+		"612EBBA4594570FEAEC4CC03" = {
+			"isa" = "XCBuildConfiguration";
+			"name" = "Release";
+			"buildSettings" = {
+				"CLANG_ENABLE_MODULES" = "YES";
+				"SWIFT_VERSION" = "5.0";
+				"TVOS_DEPLOYMENT_TARGET" = "26.4";
+				"SDKROOT" = "appletvos";
+				"SUPPORTED_PLATFORMS" = "appletvos appletvsimulator";
+				"TARGETED_DEVICE_FAMILY" = "3";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "7G949WYL6E";
+				"CURRENT_PROJECT_VERSION" = "95";
+				"MARKETING_VERSION" = "1.0";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+				"PRODUCT_NAME" = "MusicDownloaderTV";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "bewie.atelierindustriel.be.musicdownloader";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"INFOPLIST_FILE" = "Configuration/TV-MusicDownloader-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS" = "Configuration/MusicDownloader.entitlements";
+				"SKIP_INSTALL" = "YES";
+				"APPLICATION_EXTENSION_API_ONLY" = "YES";
+				"LD_RUNPATH_SEARCH_PATHS" = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"SWIFT_COMPILATION_MODE" = "wholemodule";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+				"VALIDATE_PRODUCT" = "YES";
+			};
+		};
+		"79286870EA04AE6479AB6888" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = ( "0444D9A5424BACC06A6B63A8", "612EBBA4594570FEAEC4CC03" );
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"AE1B4073118B99F3C22EC6CE" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "8A03418F4595A25FA6EB9982";
+		};
+		"58AE026F74B79AECA206076B" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ( "AE1B4073118B99F3C22EC6CE" );
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"2A3DD5E49E94C93F4C5CB4C4" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (  );
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"8B72A86DF40BAEEEBFB863CB" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (  );
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"91B55B6B54D9D5DB38F6C7E9" = {
+			"isa" = "PBXNativeTarget";
+			"name" = "MusicDownloaderTV";
+			"productName" = "MusicDownloaderTV";
+			"productReference" = "24D49EADF143380280D29FBC";
+			"productType" = "com.apple.product-type.extensionkit-extension";
+			"buildConfigurationList" = "79286870EA04AE6479AB6888";
+			"buildPhases" = ( "58AE026F74B79AECA206076B", "2A3DD5E49E94C93F4C5CB4C4", "8B72A86DF40BAEEEBFB863CB" );
+			"buildRules" = (  );
+			"dependencies" = (  );
+		};
+		"69FA8D55C0BD48E951120D64" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "83A73D786F1F5F8B077EF81D";
+			"proxyType" = 1;
+			"remoteGlobalIDString" = "91B55B6B54D9D5DB38F6C7E9";
+			"remoteInfo" = "MusicDownloaderTV";
+		};
+		"F86C1858EE6667FE6CB02DD5" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "91B55B6B54D9D5DB38F6C7E9";
+			"targetProxy" = "69FA8D55C0BD48E951120D64";
+		};
+		"31573C8F99A9A60F7A455DFB" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "24D49EADF143380280D29FBC";
+			"settings" = {
+				"ATTRIBUTES" = ( "RemoveHeadersOnCopy" );
+			};
+		};
+		"35086E64DC2BD3CE0A077422" = {
+			"isa" = "PBXCopyFilesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ( "31573C8F99A9A60F7A455DFB" );
+			"runOnlyForDeploymentPostprocessing" = 0;
+			"dstPath" = "$(EXTENSIONS_FOLDER_PATH)";
+			"dstSubfolderSpec" = 16;
+			"name" = "Embed Background Downloader";
+		};
+		"2298545ABADACAF8994A9223" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "B436CC8CE7BE754883269EE3";
+		};
+		"1A801267EC86D3DAFEEF5303" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "965B7C92C48009127E275EA7";
+		};
+		"89D2393557AB4592AC1EEEEB" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "F92C6C91FD755D0AF5857F7E";
+		};
+		"2B04BE0806BD1408537135CC" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "DE54AAB6CA4D76C1BCDC44F1";
+		};
+		"7530912307280B042175F37A" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "694A38A14C9CD5725FB95496";
+		};
+		"97FCD786C7F8453FBE09CE62" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "54CC91011F12CE6D07404FCE";
+		};
+		"EDC999247F9F3EAF3A5EE747" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "403A7E0950DFF3766DEB4DA1";
+		};
+		"E68CA6017980C54D389E8CD6" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "CFFA7B531CB5C92EE23E82CB";
+		};
+		"0AF68C933442C10ABFBC0C85" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "74F9BAF03DE2ADC6C5637553";
+		};
+		"16F193B6B75786488F1CB841" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "D5EC40117EE2CBEB8893CA3D";
+		};
+		"BFDBBA1D0F9BBAF392E52BA9" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "3F3FE22438244E7CD6271795";
+		};
+		"D6B15078D038A536F30F7F2A" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "4C43D8868664412F066DDB04";
+		};
+		"FA95A6F7D32F83CFE10F587B" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "A04433DE85BE25B3A5CF60C0";
+		};
+		"DE50D8F421125F330F9D6762" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "09AF1CA69CE435679F7C0D11";
+		};
+		"DCC0FEC14D8778B0DC066A12" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C0A5D884990BB18671B050C6";
+		};
+		"B895A67FE346BD07037D2055" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "B9358154CA1EB903B40E5D22";
+		};
+		"3CABEDA9DADBBD485E409B54" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "59A348ACB3D3E4B610698FA0";
+		};
+		"B175324C7272FC5C73EDACC6" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "CFDC137BF2496F69F69FA3A0";
+		};
+		"4795FF3A02BD8B742121BC57" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "55DACDF87815EF39938CC5F4";
+		};
+		"2628AFE87E9087F6BB4F96D0" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ( "2298545ABADACAF8994A9223", "1A801267EC86D3DAFEEF5303", "89D2393557AB4592AC1EEEEB", "2B04BE0806BD1408537135CC", "7530912307280B042175F37A", "97FCD786C7F8453FBE09CE62", "EDC999247F9F3EAF3A5EE747", "E68CA6017980C54D389E8CD6", "0AF68C933442C10ABFBC0C85", "16F193B6B75786488F1CB841", "BFDBBA1D0F9BBAF392E52BA9", "D6B15078D038A536F30F7F2A", "FA95A6F7D32F83CFE10F587B", "DE50D8F421125F330F9D6762", "DCC0FEC14D8778B0DC066A12", "B895A67FE346BD07037D2055", "3CABEDA9DADBBD485E409B54", "B175324C7272FC5C73EDACC6", "4795FF3A02BD8B742121BC57" );
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"CA004BF861E92F1F050DC4D7" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (  );
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"70CE220388821F4175942CDC" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "986C09C9025C362B0794861A";
+		};
+		"D9A05F200A3B571914BF7075" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "8EC2A121292DFBFBA801BEF5";
+		};
+		"C607ED9BDF24CCCD60E48C8C" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "FBC8813EE7C55167D576062B";
+		};
+		"1208BC6E4C9834E4EDC8D2A7" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "8EEE704EA3744EB8AB1D6B12";
+		};
+		"75C5679823258F01BD3883FF" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "36007AE6ECF8C874816ABD87";
+		};
+		"99FABE520979646118EAD73D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "28DF138C651B645BF7B01E62";
+		};
+		"03E4F5B6E2568F6FE9B53AC1" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "71EEAAC1916636A6908AD558";
+		};
+		"5BE6E1DDDD0EEE4E60EA13C9" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "74AB88C5D3B270931127B0F1";
+		};
+		"4E128F5B4A196530A04103C4" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C446A94A8DB7C37EDF56C0DB";
+		};
+		"014328483CD693E87E4DF29D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "7FB9800777BB74D6272A420E";
+		};
+		"F9B43224F3769A8E69D3CAE2" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "70219EC1D88D3C6918BAE345";
+		};
+		"631D5DB39C6C7298DFEEF825" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C2C3B89563669A71D24C50B5";
+		};
+		"81780B2842064B2FE2A981C3" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "92C3047925D74D030CEA7822";
+		};
+		"B2240AE1710D271A20920BAF" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ( "70CE220388821F4175942CDC", "D9A05F200A3B571914BF7075", "C607ED9BDF24CCCD60E48C8C", "1208BC6E4C9834E4EDC8D2A7", "75C5679823258F01BD3883FF", "99FABE520979646118EAD73D", "03E4F5B6E2568F6FE9B53AC1", "5BE6E1DDDD0EEE4E60EA13C9", "4E128F5B4A196530A04103C4", "014328483CD693E87E4DF29D", "F9B43224F3769A8E69D3CAE2", "631D5DB39C6C7298DFEEF825", "81780B2842064B2FE2A981C3" );
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"4D86A249D9C6889AB4D783FC" = {
+			"isa" = "PBXNativeTarget";
+			"name" = "BewieTV";
+			"productName" = "Bewie";
+			"productReference" = "C42644C67E6FF9359F19893D";
+			"productType" = "com.apple.product-type.application";
+			"buildConfigurationList" = "8038AC2A37D6D370B5EAE67A";
+			"buildPhases" = ( "2628AFE87E9087F6BB4F96D0", "CA004BF861E92F1F050DC4D7", "B2240AE1710D271A20920BAF", "35086E64DC2BD3CE0A077422" );
+			"buildRules" = (  );
+			"dependencies" = ( "F86C1858EE6667FE6CB02DD5" );
+		};
+		"C90F2522D07137C640918325" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "BewieTVTests/BewieTVUITests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"FE569255BAF148FE23C7DA78" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.cfbundle";
+			"path" = "BewieTVUITests.xctest";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+			"includeInIndex" = 0;
+		};
+		"43F96D41380A9D715FA931C4" = {
+			"isa" = "XCBuildConfiguration";
+			"name" = "Debug";
+			"buildSettings" = {
+				"CLANG_ENABLE_MODULES" = "YES";
+				"SWIFT_VERSION" = "5.0";
+				"TVOS_DEPLOYMENT_TARGET" = "26.4";
+				"SDKROOT" = "appletvos";
+				"SUPPORTED_PLATFORMS" = "appletvos appletvsimulator";
+				"TARGETED_DEVICE_FAMILY" = "3";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "7G949WYL6E";
+				"CURRENT_PROJECT_VERSION" = "95";
+				"MARKETING_VERSION" = "1.0";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+				"PRODUCT_NAME" = "BewieTVUITests";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "bewie.atelierindustriel.be.tvuitests";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"TEST_TARGET_NAME" = "BewieTV";
+				"SKIP_INSTALL" = "YES";
+				"LD_RUNPATH_SEARCH_PATHS" = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "DEBUG $(inherited)";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ONLY_ACTIVE_ARCH" = "YES";
+			};
+		};
+		"CDE5B7755DCB9D341BD32645" = {
+			"isa" = "XCBuildConfiguration";
+			"name" = "Release";
+			"buildSettings" = {
+				"CLANG_ENABLE_MODULES" = "YES";
+				"SWIFT_VERSION" = "5.0";
+				"TVOS_DEPLOYMENT_TARGET" = "26.4";
+				"SDKROOT" = "appletvos";
+				"SUPPORTED_PLATFORMS" = "appletvos appletvsimulator";
+				"TARGETED_DEVICE_FAMILY" = "3";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "7G949WYL6E";
+				"CURRENT_PROJECT_VERSION" = "95";
+				"MARKETING_VERSION" = "1.0";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+				"PRODUCT_NAME" = "BewieTVUITests";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "bewie.atelierindustriel.be.tvuitests";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"TEST_TARGET_NAME" = "BewieTV";
+				"SKIP_INSTALL" = "YES";
+				"LD_RUNPATH_SEARCH_PATHS" = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"SWIFT_COMPILATION_MODE" = "wholemodule";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+				"VALIDATE_PRODUCT" = "YES";
+			};
+		};
+		"90A04D3D1CCD85646466F25B" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = ( "43F96D41380A9D715FA931C4", "CDE5B7755DCB9D341BD32645" );
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"494661B49E91BE31AB2CC17F" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "83A73D786F1F5F8B077EF81D";
+			"proxyType" = 1;
+			"remoteGlobalIDString" = "4D86A249D9C6889AB4D783FC";
+			"remoteInfo" = "BewieTV";
+		};
+		"F2BCB6ACCF4EBC540E1E41C8" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "4D86A249D9C6889AB4D783FC";
+			"targetProxy" = "494661B49E91BE31AB2CC17F";
+		};
+		"00FD458898CE01D140846DD9" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C90F2522D07137C640918325";
+		};
+		"0AE46DD2491BB6C7D6CAE3C7" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ( "00FD458898CE01D140846DD9" );
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"86736230CD663237FB783302" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (  );
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"3A78646135C9EB787A741169" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (  );
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"190ED7C0AE24545A66BCE39A" = {
+			"isa" = "PBXNativeTarget";
+			"name" = "BewieTVUITests";
+			"productName" = "BewieTVUITests";
+			"productReference" = "FE569255BAF148FE23C7DA78";
+			"productType" = "com.apple.product-type.bundle.ui-testing";
+			"buildConfigurationList" = "90A04D3D1CCD85646466F25B";
+			"buildPhases" = ( "0AE46DD2491BB6C7D6CAE3C7", "86736230CD663237FB783302", "3A78646135C9EB787A741169" );
+			"buildRules" = (  );
+			"dependencies" = ( "F2BCB6ACCF4EBC540E1E41C8" );
+		};
+		"8C40798521ED8669DC3F8F1B" = {
+			"isa" = "XCBuildConfiguration";
+			"name" = "Debug";
+			"buildSettings" = {
+				"CLANG_ENABLE_MODULES" = "YES";
+				"SWIFT_VERSION" = "5.0";
+				"TVOS_DEPLOYMENT_TARGET" = "26.4";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "DEBUG $(inherited)";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ONLY_ACTIVE_ARCH" = "YES";
+			};
+		};
+		"3B93A61E7573F4D4635520D5" = {
+			"isa" = "XCBuildConfiguration";
+			"name" = "Release";
+			"buildSettings" = {
+				"CLANG_ENABLE_MODULES" = "YES";
+				"SWIFT_VERSION" = "5.0";
+				"TVOS_DEPLOYMENT_TARGET" = "26.4";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"SWIFT_COMPILATION_MODE" = "wholemodule";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+				"VALIDATE_PRODUCT" = "YES";
+			};
+		};
+		"11A3FD113415F5463F8F3CBA" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = ( "8C40798521ED8669DC3F8F1B", "3B93A61E7573F4D4635520D5" );
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"83A73D786F1F5F8B077EF81D" = {
+			"isa" = "PBXProject";
+			"attributes" = {
+				"BuildIndependentTargetsInParallel" = "YES";
+				"LastUpgradeCheck" = "2720";
+				"TargetAttributes" = {
+					"4D86A249D9C6889AB4D783FC" = {
+						"CreatedOnToolsVersion" = "27.2";
+					};
+					"91B55B6B54D9D5DB38F6C7E9" = {
+						"CreatedOnToolsVersion" = "27.2";
+					};
+				};
+			};
+			"buildConfigurationList" = "11A3FD113415F5463F8F3CBA";
+			"compatibilityVersion" = "Xcode 15.0";
+			"developmentRegion" = "en";
+			"knownRegions" = ( "en", "fr", "en-GB", "de", "es", "es-MX", "it", "ja", "pt-BR", "Base" );
+			"mainGroup" = "EB9AB73C5D90F4BCA37834A0";
+			"productRefGroup" = "3F85DAADBA3306AC262C24A6";
+			"projectDirPath" = "";
+			"projectRoot" = "";
+			"targets" = ( "4D86A249D9C6889AB4D783FC", "91B55B6B54D9D5DB38F6C7E9", "190ED7C0AE24545A66BCE39A" );
+		};
+	};
+	"rootObject" = "83A73D786F1F5F8B077EF81D";
+}

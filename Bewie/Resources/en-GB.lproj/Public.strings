@@ -1,0 +1,27 @@
+// Public interface only. English copy uses UK English.
+"coordinates" = "GPS coordinates: %@";
+"playbackPosition" = "Playback position";
+"previousTrack" = "Previous track";
+"nextTrack" = "Next track";
+"pause" = "Pause";
+"resume" = "Resume";
+"vinyl" = "Vinyl · elasticStage";
+"closePlayer" = "Close player";
+"musicUnavailable" = "Music unavailable";
+"retry" = "Try again";
+"close" = "Close";
+"trackLabel" = "%1$d, %2$@";
+"playing" = "Playing";
+"paused" = "Paused";
+"stopped" = "Stopped";
+"openControls" = "Open playback controls";
+"playAndLocate" = "Play track and zoom to this location";
+"downloadingTrack" = "Downloading track";
+"airPlayOutput" = "AirPlay and audio output";
+"audioUnavailable" = "The audio for %@ is unavailable.";
+"trackStartFailed" = "The track could not start. Tap its pin to try again.";
+"downloadFailed" = "Could not download %@. Check your connection and try again.";
+"playbackUnavailable" = "Playback is temporarily unavailable. Tap the pin to try again.";
+"playbackInterrupted" = "Playback was interrupted. Tap a pin to start again.";
+"playbackStopped" = "Playback stopped. Tap the pin to try again.";
+"trackReadFailed" = "The track could not be read. Tap a pin to try again.";

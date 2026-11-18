@@ -1,0 +1,27 @@
+// Public interface only. English copy uses US English.
+"coordinates" = "Coordonnées GPS : %@";
+"playbackPosition" = "Position de lecture";
+"previousTrack" = "Morceau précédent";
+"nextTrack" = "Morceau suivant";
+"pause" = "Pause";
+"resume" = "Reprendre";
+"vinyl" = "Vinyle · elasticStage";
+"closePlayer" = "Fermer le lecteur";
+"musicUnavailable" = "Musique indisponible";
+"retry" = "Réessayer";
+"close" = "Fermer";
+"trackLabel" = "%1$d, %2$@";
+"playing" = "Lecture en cours";
+"paused" = "En pause";
+"stopped" = "À l’arrêt";
+"openControls" = "Ouvrir les commandes de lecture";
+"playAndLocate" = "Lire le morceau et zoomer sur ce lieu";
+"downloadingTrack" = "Téléchargement du morceau";
+"airPlayOutput" = "AirPlay et sortie audio";
+"audioUnavailable" = "Le fichier audio de %@ est indisponible.";
+"trackStartFailed" = "Le morceau n’a pas pu démarrer. Touchez son repère pour réessayer.";
+"downloadFailed" = "Téléchargement de %@ impossible. Vérifiez la connexion puis réessayez.";
+"playbackUnavailable" = "La lecture est temporairement indisponible. Touchez le repère pour réessayer.";
+"playbackInterrupted" = "La lecture a été interrompue. Touchez un repère pour reprendre.";
+"playbackStopped" = "La lecture s’est arrêtée. Touchez le repère pour réessayer.";
+"trackReadFailed" = "Le morceau n’a pas pu être lu. Touchez un repère pour réessayer.";

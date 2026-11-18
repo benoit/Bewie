@@ -1,0 +1,24 @@
+{
+  "assetPackID": "bewie-video-08",
+  "downloadPolicy": {
+    "essential": {
+      "installationEventTypes": [
+        "firstInstallation"
+      ]
+    }
+  },
+  "fileSelectors": [
+    {
+      "fileSource": "MusicAssets/Messages/track-08.mp4",
+      "fileDestination": "MessagesVideos/track-08.mp4"
+    },
+    {
+      "fileSource": "MusicAssets/MessageVideoMetadata/track-08.json",
+      "fileDestination": "MessagesVideos/track-08.json"
+    }
+  ],
+  "platforms": [
+    "iOS"
+  ],
+  "sourceRoot": "../.."
+}

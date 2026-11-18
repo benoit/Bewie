@@ -1,0 +1,29 @@
+{
+  "fill-specializations": [
+    {
+      "value": {
+        "automatic-gradient": "extended-srgb:0.949019607843137,0.945098039215686,0.925490196078431,1.00000"
+      }
+    },
+    {
+      "appearance": "dark",
+      "value": {
+        "automatic-gradient": "extended-srgb:0.12549,0.12157,0.11373,1.00000"
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "Pearl",
+      "layers": [
+        {
+          "image-name": "Pearl.png",
+          "name": "Pearl"
+        }
+      ]
+    }
+  ],
+  "supported-platforms": {
+    "squares": "shared"
+  }
+}

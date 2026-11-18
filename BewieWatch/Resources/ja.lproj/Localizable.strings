@@ -1,0 +1,17 @@
+"Previous track" = "前の曲";
+"Next track" = "次の曲";
+"Play" = "再生";
+"Pause" = "一時停止";
+"Cancel" = "キャンセル";
+"Playback unavailable" = "再生できません";
+"OK" = "OK";
+"Connect an audio output and try again." = "音声出力を接続して、もう一度お試しください。";
+"The song could not be played. Please try again." = "曲を再生できませんでした。もう一度お試しください。";
+"Track location: %@" = "曲の場所：%@";
+"Starting playback" = "再生を開始中";
+"Audio output" = "音声出力";
+"Done" = "完了";
+
+"Album cover" = "アルバムカバー";
+
+"Tap to reveal the player" = "タップしてプレーヤーを表示";

@@ -1,0 +1,137 @@
+{
+  "track-01.m4a": {
+    "sourceSHA256": "7b2600b912b44eeaf7a9406c36d076d77506b99c7c7d56f8b0ba01de29467c9d",
+    "aacSHA256": "0b8c5dcbde5b71809d4d7c1adec05d1c6b0ae05e418990410b8d4a6e326183d4",
+    "bytes": 6638643,
+    "encoder": {
+      "codec": "aac",
+      "bitRate": 192000,
+      "strategy": 2,
+      "quality": 127
+    },
+    "channels": 2,
+    "sampleRate": 48000,
+    "codec": "aac",
+    "frames": 12904319
+  },
+  "track-02.m4a": {
+    "sourceSHA256": "7c65823f42659c34c7a87831363fbb09529ef104db653ef26c5a4fe2ba3e9fed",
+    "aacSHA256": "1b98ed448b04a8e74abfd0b88e98b4ad13a5ce6a6d7aa2c9ec5ec9513c8d11ce",
+    "bytes": 6630381,
+    "encoder": {
+      "codec": "aac",
+      "bitRate": 192000,
+      "strategy": 2,
+      "quality": 127
+    },
+    "channels": 2,
+    "sampleRate": 48000,
+    "codec": "aac",
+    "frames": 12894719
+  },
+  "track-03.m4a": {
+    "sourceSHA256": "3d92dd15279e1a70baa61791a2b84f5f8cae2a1825016c98f24b4bce04aa1829",
+    "aacSHA256": "6f2b3cbc132a637d723a21d43a89b0c107244433a45854cbfbd286272e2a4c40",
+    "bytes": 6041771,
+    "encoder": {
+      "codec": "aac",
+      "bitRate": 192000,
+      "strategy": 2,
+      "quality": 127
+    },
+    "channels": 2,
+    "sampleRate": 48000,
+    "codec": "aac",
+    "frames": 11704319
+  },
+  "track-04.m4a": {
+    "sourceSHA256": "321ede0405dcab82c2275f15003e3ba6f1a25cd925d612bbc4b6f3b23bd36e6a",
+    "aacSHA256": "76db6b33a2b3f270fc73c388ba5238995ce6374b382299cbb4fb0903fe88ae70",
+    "bytes": 6537987,
+    "encoder": {
+      "codec": "aac",
+      "bitRate": 192000,
+      "strategy": 2,
+      "quality": 127
+    },
+    "channels": 2,
+    "sampleRate": 48000,
+    "codec": "aac",
+    "frames": 12752639
+  },
+  "track-05.m4a": {
+    "sourceSHA256": "6e7089572c200451f655ee0847335891d5c4ad65feda2cb38a1a9d522ddaf3de",
+    "aacSHA256": "3e0d55cd9f1d2ffb5e9e17baa6b698d3982a8b33e06377dca9c4b3ca3ba3c605",
+    "bytes": 5788230,
+    "encoder": {
+      "codec": "aac",
+      "bitRate": 192000,
+      "strategy": 2,
+      "quality": 127
+    },
+    "channels": 2,
+    "sampleRate": 48000,
+    "codec": "aac",
+    "frames": 11199359
+  },
+  "track-06.m4a": {
+    "sourceSHA256": "ba5eb9fcdf4b49dc421f72e8224d13dba556fe8132b0a9e80872a601f0a12909",
+    "aacSHA256": "2f9613f2c0ae533770695737944396e99e62a3ace527c3d6ff650bc651130086",
+    "bytes": 9195282,
+    "encoder": {
+      "codec": "aac",
+      "bitRate": 192000,
+      "strategy": 2,
+      "quality": 127
+    },
+    "channels": 2,
+    "sampleRate": 48000,
+    "codec": "aac",
+    "frames": 17955839
+  },
+  "track-07.m4a": {
+    "sourceSHA256": "d2f941921219279fd6449424d2683337a7ff28a38cd31c3f653bfbb96b8aac04",
+    "aacSHA256": "4896e1be7897def1338907872272ebbc5eac01b99cfe569711749097f48548c0",
+    "bytes": 6325213,
+    "encoder": {
+      "codec": "aac",
+      "bitRate": 192000,
+      "strategy": 2,
+      "quality": 127
+    },
+    "channels": 2,
+    "sampleRate": 48000,
+    "codec": "aac",
+    "frames": 12299519
+  },
+  "track-08.m4a": {
+    "sourceSHA256": "fa5f0a89d1254ff67a2a156e2b30c90575a2dcdebc1e664c231d5d8070f3b825",
+    "aacSHA256": "ff5023f39b19f7988684f46b1f38a05c995d05eb0bae409e5fef0b42e7c97322",
+    "bytes": 6594161,
+    "encoder": {
+      "codec": "aac",
+      "bitRate": 192000,
+      "strategy": 2,
+      "quality": 127
+    },
+    "channels": 2,
+    "sampleRate": 48000,
+    "codec": "aac",
+    "frames": 12798719
+  },
+  "track-09.m4a": {
+    "sourceSHA256": "36d1b0e07ba325e3cc7422b2bf1ef265bedb09c34322545d2a39f6194181a074",
+    "aacSHA256": "48ea560ddcfa31b78b3b6e2efff231fb3e0fdd43b560f3762231cc9e26af2ae7",
+    "bytes": 7788980,
+    "encoder": {
+      "codec": "aac",
+      "bitRate": 192000,
+      "strategy": 2,
+      "quality": 127
+    },
+    "channels": 2,
+    "sampleRate": 48000,
+    "codec": "aac",
+    "frames": 15179519
+  }
+}

@@ -1,0 +1,17 @@
+"Previous track" = "Morceau précédent";
+"Next track" = "Morceau suivant";
+"Play" = "Lecture";
+"Pause" = "Pause";
+"Cancel" = "Annuler";
+"Playback unavailable" = "Lecture indisponible";
+"OK" = "OK";
+"Connect an audio output and try again." = "Connectez une sortie audio puis réessayez.";
+"The song could not be played. Please try again." = "Impossible de lire le morceau. Réessayez.";
+"Track location: %@" = "Lieu du morceau : %@";
+"Starting playback" = "Démarrage de la lecture";
+"Audio output" = "Sortie audio";
+"Done" = "Terminé";
+
+"Album cover" = "Pochette de l’album";
+
+"Tap to reveal the player" = "Touchez pour afficher le lecteur";

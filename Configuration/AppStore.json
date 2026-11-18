@@ -1,0 +1,14 @@
+{
+  "appleAppID": null,
+  "sku": "BE-BEWIE",
+  "primaryLocale": "fr-FR",
+  "title": "Bewie - Every Room Is Borrowed",
+  "displayName": "Bewie",
+  "bundleIdentifier": "bewie.atelierindustriel.be",
+  "musicDownloaderIdentifier": "bewie.atelierindustriel.be.musicdownloader",
+  "messagesExtensionIdentifier": "bewie.atelierindustriel.be.messages",
+  "musicAppGroup": "group.bewie.atelierindustriel.be.music",
+  "supportURL": "https://bewie.atelierindustriel.be/support",
+  "privacyPolicyURL": "https://bewie.atelierindustriel.be/privacy",
+  "supportEmail": "bewie.app@cazenave.fr"
+}
