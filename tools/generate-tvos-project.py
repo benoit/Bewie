@@ -31,7 +31,7 @@ extproduct=obj('extproduct','PBXFileReference',explicitFileType='wrapper.app-ext
 extsource=file('MusicDownloader/MusicDownloader.swift','sourcecode.swift')
 products=obj('products','PBXGroup',children=[mainproduct,extproduct],name='Products',sourceTree='<group>')
 group=obj('rootgroup','PBXGroup',children=sources+resources+[extsource,products],sourceTree='<group>')
-settingsbase={'CLANG_ENABLE_MODULES':'YES','SWIFT_VERSION':'5.0','TVOS_DEPLOYMENT_TARGET':'26.4','SDKROOT':'appletvos','SUPPORTED_PLATFORMS':'appletvos appletvsimulator','TARGETED_DEVICE_FAMILY':'3','CODE_SIGN_STYLE':'Automatic','DEVELOPMENT_TEAM':plistlib.loads((root/'Configuration/ExportOptions-TestFlight.plist').read_bytes())['teamID'],'CURRENT_PROJECT_VERSION':'2','MARKETING_VERSION':'1.0','ENABLE_USER_SCRIPT_SANDBOXING':'YES'}
+settingsbase={'CLANG_ENABLE_MODULES':'YES','SWIFT_VERSION':'5.0','TVOS_DEPLOYMENT_TARGET':'26.4','SDKROOT':'appletvos','SUPPORTED_PLATFORMS':'appletvos appletvsimulator','TARGETED_DEVICE_FAMILY':'3','CODE_SIGN_STYLE':'Automatic','DEVELOPMENT_TEAM':plistlib.loads((root/'Configuration/ExportOptions-TestFlight.plist').read_bytes())['teamID'],'CURRENT_PROJECT_VERSION':'3','MARKETING_VERSION':'1.0','ENABLE_USER_SCRIPT_SANDBOXING':'YES'}
 def configs(name,base):
  refs=[]
  for config in ['Debug','Release']:

@@ -1,5 +1,5 @@
-Bewie 1.0 (2) — essai de l’icône avec la pochette de l’album.
+Bewie 1.0 (3) — icône photographique sans texte.
 
-La pochette remplace le logo seul. Vérifiez l’icône sur l’écran d’accueil, les apparences claire, sombre, transparente et teintée, et sa lisibilité en petit format. La photographie et ses couleurs d’origine sont conservées dans les icônes par défaut et sombre.
+Le titre de l’album et le logo Bewie ont été retirés de la photographie de l’icône. Vérifiez les apparences claire, sombre, transparente et teintée, ainsi que la lisibilité en petit format. La pochette de l’album dans l’application reste inchangée.
 
-Vérifiez aussi le téléchargement de l’album, les neuf morceaux, les paroles, la lecture hors ligne, AirPlay et les commandes système.
+Vérifiez le téléchargement de l’album, les neuf morceaux, les paroles, la lecture hors ligne, AirPlay et les commandes système.

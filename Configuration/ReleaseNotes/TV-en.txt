@@ -1,5 +1,5 @@
-Bewie 1.0 (2) — album artwork icon trial.
+Bewie 1.0 (3) — clean photograph icon.
 
-The album sleeve now replaces the logo-only app icon. Check its appearance on the Home Screen, in light/dark, clear and tinted modes, and at small sizes. The photograph and original colors are preserved in the default and dark icons.
+Removed the album title and Bewie logo from the icon photograph. Check the new icon in light, dark, clear and tinted appearances and at small sizes. The album artwork inside the app is unchanged.
 
-Also check album download, all nine songs, lyrics, offline playback, AirPlay and system media controls. Check the icon on the Apple TV Home Screen and focus animation.
+Check album download, all nine songs, lyrics, offline playback, AirPlay and system media controls. Check the Apple TV Home Screen icon and focus animation.

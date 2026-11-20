@@ -10,6 +10,43 @@
   "nativePreviewCount": 12,
   "messagesSlots": 12,
   "previewsRendered": true,
-  "lastReleasedBuild": "1.0 (2), prior icon artwork",
-  "currentArtworkReleaseStatus": "Ready for next build; not uploaded"
+  "lastReleasedBuild": "1.0 (3)",
+  "currentArtworkReleaseStatus": "Available in owner-only internal TestFlight on iOS, Mac and TV",
+  "archives": [
+    {
+      "platform": "iOS",
+      "iconRenditions": 17,
+      "appearances": [
+        "ISAppearanceTintable",
+        "UIAppearanceDark",
+        "UIAppearanceLight",
+        "default"
+      ],
+      "archive": "verified",
+      "build": "1.0 (3)",
+      "watchIconRenditions": 7
+    },
+    {
+      "platform": "Mac",
+      "iconRenditions": 11,
+      "appearances": [
+        "ISAppearanceTintable",
+        "UIAppearanceDark",
+        "UIAppearanceLight",
+        "default"
+      ],
+      "archive": "verified",
+      "build": "1.0 (3)"
+    },
+    {
+      "platform": "TV",
+      "iconRenditions": 14,
+      "appearances": [
+        "default"
+      ],
+      "archive": "verified",
+      "build": "1.0 (3)"
+    }
+  ],
+  "releaseVerifiedAt": "2026-11-20T07:27:30.959780+00:00"
 }
