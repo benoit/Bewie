@@ -1,0 +1,55 @@
+{
+  "fill-specializations": [
+    {
+      "value": {
+        "solid": "extended-srgb:0.9490196078,0.9450980392,0.9254901961,1.00000000"
+      }
+    },
+    {
+      "appearance": "dark",
+      "value": {
+        "solid": "extended-srgb:0.9490196078,0.9450980392,0.9254901961,1.00000000"
+      }
+    }
+  ],
+  "groups": [
+    {
+      "layers": [
+        {
+          "name": "Bewie mark",
+          "position": {
+            "scale": 3.2,
+            "translation-in-points": [
+              0,
+              0
+            ]
+          },
+          "image-name-specializations": [
+            {
+              "value": "Bewie.png"
+            },
+            {
+              "appearance": "tinted",
+              "value": "Bewie-Mono.png"
+            }
+          ]
+        }
+      ],
+      "name": "Bewie",
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.12
+      },
+      "translucency": {
+        "enabled": true,
+        "value": 0.08
+      }
+    }
+  ],
+  "supported-platforms": {
+    "circles": [
+      "watchOS"
+    ],
+    "squares": "shared"
+  }
+}

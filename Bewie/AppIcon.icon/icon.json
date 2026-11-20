@@ -16,33 +16,25 @@
     {
       "layers": [
         {
-          "name": "Bewie mark",
+          "name": "Album cover",
+          "image-name": "AlbumCover.png",
           "position": {
-            "scale": 3.2,
+            "scale": 1,
             "translation-in-points": [
               0,
               0
             ]
-          },
-          "image-name-specializations": [
-            {
-              "value": "Bewie.png"
-            },
-            {
-              "appearance": "tinted",
-              "value": "Bewie-Mono.png"
-            }
-          ]
+          }
         }
       ],
-      "name": "Bewie",
+      "name": "Album artwork",
       "shadow": {
         "kind": "neutral",
-        "opacity": 0.12
+        "opacity": 0
       },
       "translucency": {
-        "enabled": true,
-        "value": 0.08
+        "enabled": false,
+        "value": 0
       }
     }
   ],

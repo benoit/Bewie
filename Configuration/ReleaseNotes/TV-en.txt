@@ -1,3 +1,5 @@
-Bewie 1.0 (1) — first standalone Apple TV album release.
+Bewie 1.0 (2) — album artwork icon trial.
 
-Verify Apple-hosted lossless downloads, all nine songs, map navigation, synchronized lyrics, playback controls, focus and remote navigation, and offline playback after relaunch. Check the layered Bewie logo on chalk and the album artwork on Top Shelf.
+The album sleeve now replaces the logo-only app icon. Check its appearance on the Home Screen, in light/dark, clear and tinted modes, and at small sizes. The photograph and original colors are preserved in the default and dark icons.
+
+Also check album download, all nine songs, lyrics, offline playback, AirPlay and system media controls. Check the icon on the Apple TV Home Screen and focus animation.

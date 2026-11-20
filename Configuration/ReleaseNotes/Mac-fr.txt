@@ -1,3 +1,5 @@
-Bewie 1.0 (1) — première version indépendante de l’album sur Mac.
+Bewie 1.0 (2) — essai de l’icône avec la pochette de l’album.
 
-Vérifier les téléchargements sans perte depuis Apple, les neuf lieux des morceaux, les paroles synchronisées, les déplacements sur la carte, les commandes de lecture et système, AirPlay, le redimensionnement de la fenêtre et la lecture hors ligne après relance. Vérifier l’icône Bewie dans ses couleurs d’origine et l’apparence teintée plus lisible qui conserve la texture.
+La pochette remplace le logo seul. Vérifiez l’icône sur l’écran d’accueil, les apparences claire, sombre, transparente et teintée, et sa lisibilité en petit format. La photographie et ses couleurs d’origine sont conservées dans les icônes par défaut et sombre.
+
+Vérifiez aussi le téléchargement de l’album, les neuf morceaux, les paroles, la lecture hors ligne, AirPlay et les commandes système.

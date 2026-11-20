@@ -52,20 +52,20 @@ and never grant access just because a device is near a configured network.
 The reusable proximity invitation system and guide contributions belong to
 subsequent work; they are not implemented in this preparation.
 
-The iOS, Mac and Watch app icon preserves the original Bewie logo colors and
-texture on chalk in light and dark mode, with native clear/tinted variants. Messages has all
-12 matching flat icon sizes. Apple TV uses the original Bewie logo on a layered chalk tile.
-The album launch artwork remains unchanged. See [Design/AppIcon.md](Design/AppIcon.md).
+The iOS, Mac and Watch icon now uses the original album sleeve photograph.
+Messages and Apple TV use matching album artwork. Light/dark preserve its source
+colors; clear and tinted variants use Apple's native rendering.
+See [Design/AppIcon.md](Design/AppIcon.md).
 
 ## TestFlight distribution
 
 Bewie has its own App Store Connect record (`6836332427`), registered bundle IDs
-and assigned music App Group. Version **1.0 (1)** is available in the **Owner**
+and assigned music App Group. Version **1.0 (2)** is available in the **Owner**
 internal TestFlight group for iOS/iPadOS (including Watch and Messages), Mac
 Catalyst and Apple TV. The group contains only Benoit; public links are disabled.
 All nine lossless music packs and nine Messages video packs are published under
 Bewie's record and ready for internal testing. English and French What to Test
-notes are saved for every platform. See [the release record](Documentation/Release-1.0-1.md).
+notes are saved for every platform. See [the release record](Documentation/Release-1.0-2.md).
 
 When a public store listing is available, set `BewieAppStoreURL` in
 `Configuration/Messages-Info.plist` to its HTTPS App Store URL to enable the

@@ -1,3 +1,5 @@
-Bewie 1.0 (1) — first standalone Mac album release.
+Bewie 1.0 (2) — album artwork icon trial.
 
-Verify Apple-hosted lossless downloads, all nine song locations, synchronized lyrics, map movement, playback controls, system media controls, AirPlay, window resizing and offline playback after relaunch. Check the original-color Bewie icon and the brighter texture-preserving tinted appearance.
+The album sleeve now replaces the logo-only app icon. Check its appearance on the Home Screen, in light/dark, clear and tinted modes, and at small sizes. The photograph and original colors are preserved in the default and dark icons.
+
+Also check album download, all nine songs, lyrics, offline playback, AirPlay and system media controls. Check the icon in the Dock and Finder.

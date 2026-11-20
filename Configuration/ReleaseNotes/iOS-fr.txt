@@ -1,7 +1,5 @@
-Bewie 1.0 (1) — première version indépendante de l’album.
+Bewie 1.0 (2) — essai de l’icône avec la pochette de l’album.
 
-Vérifier la pochette d’ouverture, les neuf lieux des morceaux, les déplacements sur la carte, les paroles synchronisées, les commandes de lecture, l’audio en arrière-plan, AirPlay et les commandes système. Tester le premier téléchargement de la musique sans perte depuis Apple, puis la lecture hors ligne après relance.
+La pochette remplace le logo seul. Vérifiez l’icône sur l’écran d’accueil, les apparences claire, sombre, transparente et teintée, et sa lisibilité en petit format. La photographie et ses couleurs d’origine sont conservées dans les icônes par défaut et sombre.
 
-Sur Apple Watch, tester l’album embarqué hors ligne, le choix des morceaux, la couronne et le volume. Dans Messages, ajouter la vidéo complète d’un morceau avec une note facultative à un brouillon et le vérifier avant l’envoi.
-
-Vérifier le logo dans ses couleurs d’origine sur fond chalk et ses apparences transparentes/teintées, dont la version teintée sombre plus lisible qui conserve la texture.
+Vérifiez aussi le téléchargement de l’album, les neuf morceaux, les paroles, la lecture hors ligne, AirPlay et les commandes système.

@@ -13,8 +13,9 @@ args = parser.parse_args()
 client = Client()
 app = json.loads((ROOT/'Configuration/AppStore.json').read_text())['appleAppID']
 groups = client.request('GET',f'/v1/apps/{app}/betaGroups?limit=100')['data']
-assert len(groups)==1 and groups[0]['attributes']['name']=='Owner' and groups[0]['attributes']['isInternalGroup']
-group = groups[0]
+owners = [g for g in groups if g['attributes']['name']=='Owner' and g['attributes']['isInternalGroup']]
+assert len(owners)==1
+group = owners[0]
 assert not group['attributes'].get('publicLinkEnabled')
 members = client.request('GET',f"/v1/betaGroups/{group['id']}/betaTesters?limit=100")['data']
 assert len(members)==1 and members[0]['attributes']['email'].lower()=='benoit@cazenave.fr'
@@ -49,12 +50,14 @@ for platform,label in [('IOS','iOS'),('MAC_OS','Mac'),('TV_OS','TV')]:
             client.request('POST',f"/v1/betaGroups/{group['id']}/relationships/builds",{'data':[{'type':'builds','id':bid}]})
         builds = client.request('GET',f"/v1/betaGroups/{group['id']}/builds?limit=200")['data']
         assert any(b['id']==bid for b in builds)
+        assigned = [g for g in groups if any(b['id']==bid for b in client.request('GET',f"/v1/betaGroups/{g['id']}/builds?limit=200")['data'])]
+        assert assigned and all(g['id']==group['id'] for g in assigned), 'Build is assigned beyond the authorized Owner group'
         detail = client.request('GET',f'/v1/builds/{bid}/buildBetaDetail')['data']['attributes']
-        row.update(internalState=detail['internalBuildState'],ownerGroupAssigned=True,whatToTestVerified=True,usesNonExemptEncryption=False)
+        row.update(internalState=detail['internalBuildState'],ownerGroupAssigned=True,ownerOnlyVerified=True,whatToTestVerified=True,usesNonExemptEncryption=False)
     rows.append(row)
 assetsPath = ROOT/'build/hosted-assets-verification.json'
 assetsReady = assetsPath.exists() and json.loads(assetsPath.read_text()).get('ready',False)
-complete = assetsReady and len(rows)==3 and all(r.get('internalState')=='IN_BETA_TESTING' and r.get('ownerGroupAssigned') and r.get('whatToTestVerified') for r in rows)
+complete = assetsReady and len(rows)==3 and all(r.get('internalState')=='IN_BETA_TESTING' and r.get('ownerGroupAssigned') and r.get('ownerOnlyVerified') and r.get('whatToTestVerified') for r in rows)
 result = {'appID':app,'version':'1.0','build':args.build,'ownerOnly':True,'testerCount':1,'allHostedAssetsReady':assetsReady,'complete':complete,'platforms':rows,'verifiedAt':datetime.datetime.now(datetime.timezone.utc).isoformat()}
 (ROOT/'build/bewie-release-status.json').write_text(json.dumps(result,indent=2)+'\n')
 print(json.dumps(result,indent=2))
