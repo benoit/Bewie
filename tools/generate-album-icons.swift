@@ -1,7 +1,7 @@
 // Render existing album artwork into platform-native icon assets without recoloring it.
 import AppKit
 let root = URL(fileURLWithPath: #filePath).deletingLastPathComponent().deletingLastPathComponent()
-let source = NSImage(contentsOf: root.appendingPathComponent("Bewie/Assets.xcassets/LaunchAlbumCover.imageset/front-laetitia.png"))!
+let source = NSImage(contentsOf: root.appendingPathComponent("Design/Icons/AlbumPhoto-clean.png"))!
 var rect = CGRect(origin: .zero, size: source.size)
 let cover = source.cgImage(forProposedRect: &rect, context: nil, hints: nil)!
 let space = CGColorSpace(name: CGColorSpace.sRGB)!
@@ -19,7 +19,7 @@ func render(_ width: Int, _ height: Int, _ path: String, contain: Bool = false) 
         .write(to: root.appendingPathComponent(path))
 }
 try render(1024, 1024, "Bewie/AppIcon.icon/Assets/AlbumCover.png")
-// Rectangular platforms retain the whole sleeve on the matching chalk surround.
+// Rectangular platforms retain the complete clean photograph on a chalk surround.
 let icons = "BewieMessages/Assets.xcassets/MessageIcon.stickersiconset"
 let contents = try JSONSerialization.jsonObject(with: Data(contentsOf: root.appendingPathComponent(icons+"/Contents.json"))) as! [String: Any]
 for item in contents["images"] as! [[String: String]] {

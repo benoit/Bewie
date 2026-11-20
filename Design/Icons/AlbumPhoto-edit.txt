@@ -1,0 +1,5 @@
+Tool: built-in image_gen (precise-object-edit)
+Input: Bewie/AppIcon.icon/Assets/AlbumCover.png from build 2
+Output: Design/Icons/AlbumPhoto-clean.png
+
+Edit this existing square album photograph for an app icon. Remove ONLY the black title lettering 'EVERY ROOM IS BORROWED' in the upper sky and the black Bewie logo at the bottom right. Inpaint those two areas naturally: continuous matching beige-gray cloudy sky in the upper area and matching stone paving slabs, perspective lines, grain and lighting at the lower right. Preserve the photograph exactly everywhere else: the woman and her face, body, clothing, position, architecture, windows, columns, pavement, sky, original muted colors and contrast, square composition, camera perspective and framing. No crop, no zoom, no added words, no logo, no watermark, no border or rounded corners. Output the clean photograph with both text and logo fully removed.
