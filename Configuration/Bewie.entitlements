@@ -6,5 +6,7 @@
 	<array>
 		<string>group.bewie.atelierindustriel.be.music</string>
 	</array>
+	<key>com.apple.developer.associated-domains</key>
+	<array><string>applinks:blessing.bewie.atelierindustriel.be</string></array>
 </dict>
 </plist>

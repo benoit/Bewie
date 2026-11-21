@@ -1,0 +1,20 @@
+{
+  "name": "bewie-blessing",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-21",
+  "workers_dev": false,
+  "routes": [
+    {
+      "pattern": "blessing.bewie.atelierindustriel.be",
+      "custom_domain": true
+    }
+  ],
+  "observability": {
+    "enabled": false
+  },
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  }
+}

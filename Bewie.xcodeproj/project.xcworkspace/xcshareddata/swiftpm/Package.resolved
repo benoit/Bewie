@@ -1,0 +1,14 @@
+{
+  "originHash" : "5eb484bb644092fff86469217fa2a2bb4e1fd657d46ae4f867c49c8d82689d39",
+  "pins" : [
+    {
+      "identity" : "blessingkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/benoit/BlessingKit.git",
+      "state" : {
+        "revision" : "8f0af803ac5a4b11f61c551f862b8a8b941c78ea"
+      }
+    }
+  ],
+  "version" : 3
+}

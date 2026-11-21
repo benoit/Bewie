@@ -1,5 +1,5 @@
-Bewie 1.0 (3) — clean photograph icon.
+Bewie 1.0 (4) — private Perle pearl.
 
-Removed the album title and Bewie logo from the icon photograph. Check the new icon in light, dark, clear and tinted appearances and at small sizes. The album artwork inside the app is unchanged.
+On an unblessed installation the pearl is absent. Open bewie://start, send the request to the Mac mini, and return its personal 000 grant to this installation. The pearl appears at the bottom centre after the sleeve closes. Tapping opens Perle or its App Store page if unavailable; it grants no Perle access.
 
-Check album download, all nine songs, lyrics, offline playback, AirPlay and system media controls. Check the Watch and Messages icons too.
+Confirm offline restoration after relaunch. start is a no-op when blessed. bewie://stop removes the blessing and pearl; a fresh Mac approval is needed to reactivate. Check all nine tracks, lyrics, offline music, Watch and Messages.

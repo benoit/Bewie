@@ -45,10 +45,12 @@ Bewie contains the album experience. Guide screens, place data, Florence routes,
 enrollment, Wi-Fi access, push services and their tests remain in Perle.
 Bewie does not register the `perle://` scheme or access Perle's shared containers.
 
-The planned private pearl is **not enabled yet**. Its artwork is retained, but
-visibility needs an owner identity/recovery contract for Benoit and Lætitia.
-It must open Perle, be independent of guide downloads and ordinary invitations,
-and never grant access just because a device is near a configured network.
+The private Perle pearl is enabled only for blessed iOS installations. Blessings
+are issued manually by the Mac mini with personal rights `000`; each installation
+needs its own approval. `bewie://start` requests approval, and `bewie://stop` removes
+it locally. The pearl opens Perle, with an App Store fallback, without granting
+access inside Perle. See [Documentation/Blessing.md](Documentation/Blessing.md).
+
 The reusable proximity invitation system and guide contributions belong to
 subsequent work; they are not implemented in this preparation.
 
@@ -66,6 +68,9 @@ Catalyst and Apple TV. The group contains only Benoit; public links are disabled
 All nine lossless music packs and nine Messages video packs are published under
 Bewie's record and ready for internal testing. English and French What to Test
 notes are saved for every platform. See [the release record](Documentation/Release-1.0-3.md).
+
+The latest iOS release is **1.0 (4)** with the private pearl integration; see
+[the iOS build 4 record](Documentation/Release-1.0-iOS-4.md).
 
 When a public store listing is available, set `BewieAppStoreURL` in
 `Configuration/Messages-Info.plist` to its HTTPS App Store URL to enable the

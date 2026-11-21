@@ -1,0 +1,9 @@
+{
+  "appID" : "bewie.atelierindustriel.be",
+  "authorityPublicKeys" : [
+    "A4/Y3t3F4anaz4rMzZJ2oWOMf++jPzKHtp6HvkNigz6O"
+  ],
+  "linksBaseURL" : "https://blessing.bewie.atelierindustriel.be",
+  "transmission" : "controlled",
+  "urlScheme" : "bewie"
+}

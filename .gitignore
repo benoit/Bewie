@@ -25,3 +25,6 @@ BewieWatch/Resources/Audio/
 
 # Local verification output.
 *.log
+
+# Local Blessing link-service dependencies.
+Services/Blessing/node_modules

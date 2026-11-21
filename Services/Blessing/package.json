@@ -1,0 +1,19 @@
+{
+  "name": "blessingkit-links",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "test": "node --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "start": "node src/node.ts",
+    "assets": "node scripts/generate-preview.mjs",
+    "dev": "wrangler dev",
+    "deploy": "node scripts/check-deployment.mjs && wrangler deploy"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0",
+    "wrangler": "^4.0.0"
+  }
+}
