@@ -1,5 +1,5 @@
-Bewie 1.0 (4) — perle privée vers Perle.
+Bewie 1.0 (5) — perle identique à celle de Perle.
 
-La perle reste absente sans bénédiction. Ouvrez bewie://start, envoyez la demande au Mac mini puis ouvrez sa réponse personnelle 000 sur la même installation. La perle apparaît en bas au centre après la fermeture de la pochette. Elle ouvre Perle ou sa fiche App Store, sans accorder d’accès dans Perle.
+La perle visible mesure maintenant 34 points, avec la même ombre, une zone tactile de 48 points et le même placement en bas au centre que dans Perle. Vérifiez-la sur une installation bénie après la fermeture de la pochette, puis vérifiez l’ouverture de Perle ou de sa fiche App Store.
 
-Vérifiez la restauration hors ligne après relancement. start ne fait rien si l’app est bénie. bewie://stop retire la bénédiction et la perle ; une nouvelle approbation du Mac est nécessaire. Vérifiez les neuf morceaux, les paroles, la musique hors ligne, Watch et Messages.
+Le fonctionnement des bénédictions reste inchangé : start ne fait rien si l’app est bénie ; stop retire la perle et nécessite une nouvelle approbation du Mac mini. Vérifiez les neuf morceaux, les paroles, la lecture hors ligne, Watch et Messages.

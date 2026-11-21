@@ -101,7 +101,7 @@
 				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
 				"SDKROOT" = "watchos";
 				"PRODUCT_BUNDLE_IDENTIFIER" = "bewie.atelierindustriel.be.watchkitapp";
-				"CURRENT_PROJECT_VERSION" = "4";
+				"CURRENT_PROJECT_VERSION" = "5";
 				"SWIFT_VERSION" = "5.0";
 			};
 			"name" = "Release";
@@ -137,7 +137,7 @@
 				"DEVELOPMENT_TEAM" = "7G949WYL6E";
 				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
 				"INFOPLIST_KEY_LSApplicationCategoryType" = "public.app-category.music";
-				"CURRENT_PROJECT_VERSION" = "4";
+				"CURRENT_PROJECT_VERSION" = "5";
 				"PRODUCT_BUNDLE_IDENTIFIER" = "bewie.atelierindustriel.be";
 				"INFOPLIST_KEY_CFBundleDisplayName" = "Bewie";
 				"SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD" = "YES";
@@ -202,7 +202,7 @@
 				"CODE_SIGN_STYLE" = "Automatic";
 				"SWIFT_VERSION" = "5.0";
 				"PRODUCT_BUNDLE_IDENTIFIER" = "bewie.atelierindustriel.be.musicdownloader";
-				"CURRENT_PROJECT_VERSION" = "4";
+				"CURRENT_PROJECT_VERSION" = "5";
 			};
 			"name" = "Release";
 		};
@@ -277,7 +277,7 @@
 				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
 				"SDKROOT" = "watchos";
 				"PRODUCT_BUNDLE_IDENTIFIER" = "bewie.atelierindustriel.be.watchkitapp";
-				"CURRENT_PROJECT_VERSION" = "4";
+				"CURRENT_PROJECT_VERSION" = "5";
 				"SWIFT_VERSION" = "5.0";
 			};
 			"name" = "Debug";
@@ -289,7 +289,7 @@
 				"MARKETING_VERSION" = "1.0";
 				"DEVELOPMENT_TEAM" = "7G949WYL6E";
 				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
-				"CURRENT_PROJECT_VERSION" = "4";
+				"CURRENT_PROJECT_VERSION" = "5";
 				"PRODUCT_BUNDLE_IDENTIFIER" = "bewie.atelierindustriel.be.messages";
 				"ENABLE_USER_SCRIPT_SANDBOXING" = "NO";
 				"SUPPORTS_MACCATALYST" = "NO";
@@ -323,7 +323,7 @@
 				"DEVELOPMENT_TEAM" = "7G949WYL6E";
 				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
 				"INFOPLIST_KEY_LSApplicationCategoryType" = "public.app-category.music";
-				"CURRENT_PROJECT_VERSION" = "4";
+				"CURRENT_PROJECT_VERSION" = "5";
 				"PRODUCT_BUNDLE_IDENTIFIER" = "bewie.atelierindustriel.be";
 				"INFOPLIST_KEY_CFBundleDisplayName" = "Bewie";
 				"SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD" = "YES";
@@ -398,7 +398,7 @@
 				"CODE_SIGN_STYLE" = "Automatic";
 				"SWIFT_VERSION" = "5.0";
 				"PRODUCT_BUNDLE_IDENTIFIER" = "bewie.atelierindustriel.be.musicdownloader";
-				"CURRENT_PROJECT_VERSION" = "4";
+				"CURRENT_PROJECT_VERSION" = "5";
 			};
 			"name" = "Debug";
 		};
@@ -461,7 +461,7 @@
 				"MARKETING_VERSION" = "1.0";
 				"DEVELOPMENT_TEAM" = "7G949WYL6E";
 				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
-				"CURRENT_PROJECT_VERSION" = "4";
+				"CURRENT_PROJECT_VERSION" = "5";
 				"PRODUCT_BUNDLE_IDENTIFIER" = "bewie.atelierindustriel.be.messages";
 				"ENABLE_USER_SCRIPT_SANDBOXING" = "NO";
 				"SUPPORTS_MACCATALYST" = "NO";

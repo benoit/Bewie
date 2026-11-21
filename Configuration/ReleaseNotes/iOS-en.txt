@@ -1,5 +1,5 @@
-Bewie 1.0 (4) — private Perle pearl.
+Bewie 1.0 (5) — pearl matches Perle exactly.
 
-On an unblessed installation the pearl is absent. Open bewie://start, send the request to the Mac mini, and return its personal 000 grant to this installation. The pearl appears at the bottom centre after the sleeve closes. Tapping opens Perle or its App Store page if unavailable; it grants no Perle access.
+The visible pearl is now 34 points, with Perle’s matching shadow, 48-point tap area and identical bottom-centre placement. Check it on a blessed installation after the opening sleeve closes, and verify that tapping still opens Perle or its App Store fallback.
 
-Confirm offline restoration after relaunch. start is a no-op when blessed. bewie://stop removes the blessing and pearl; a fresh Mac approval is needed to reactivate. Check all nine tracks, lyrics, offline music, Watch and Messages.
+Blessing behaviour is unchanged: start does nothing when blessed; stop removes the pearl and requires fresh Mac-mini approval. Check all nine songs, lyrics, offline playback, Watch and Messages.

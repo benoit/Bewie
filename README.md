@@ -69,8 +69,8 @@ All nine lossless music packs and nine Messages video packs are published under
 Bewie's record and ready for internal testing. English and French What to Test
 notes are saved for every platform. See [the release record](Documentation/Release-1.0-3.md).
 
-The latest iOS release is **1.0 (4)** with the private pearl integration; see
-[the iOS build 4 record](Documentation/Release-1.0-iOS-4.md).
+The latest iOS release is **1.0 (5)** with the pearl matching Perle exactly; see
+[the iOS build 5 record](Documentation/Release-1.0-iOS-5.md).
 
 When a public store listing is available, set `BewieAppStoreURL` in
 `Configuration/Messages-Info.plist` to its HTTPS App Store URL to enable the
