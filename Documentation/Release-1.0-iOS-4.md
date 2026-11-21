@@ -33,7 +33,10 @@ The distributed app passed strict, deep signature verification, with the expecte
 music App Group, Associated Domains entitlement and bundled public profile.
 The original signing keychain search order was restored and verified.
 
-Final TestFlight status is recorded after Apple processing.
+App Store Connect reports iOS build 4 as `VALID` and `IN_BETA_TESTING`.
+It is assigned exclusively to the Owner internal group, containing one tester.
+English/French What to Test notes and exempt encryption were read back successfully.
+Verified at 2026-11-21T18:02:58.412449+00:00.
 
 Private release outputs: external SSD `Bewie-Releases/2026-11-21-iOS-4`.
 The checkout contained pre-existing iOS/media/submission work; this task preserves
