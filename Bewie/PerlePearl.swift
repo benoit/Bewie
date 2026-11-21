@@ -17,8 +17,8 @@ struct PerlePearl: View {
             Image("PearlPin")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 44, height: 44)
-                .shadow(color: .black.opacity(0.18), radius: 3, y: 2)
+                .frame(width: 34, height: 34)
+                .shadow(color: .black.opacity(0.12), radius: 3, y: 2)
                 .frame(width: 48, height: 48)
                 .contentShape(Circle())
         }
